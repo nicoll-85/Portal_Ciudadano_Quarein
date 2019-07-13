@@ -1,0 +1,48 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+  background: url('../images/bg_portal.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.header-text {
+  color: white;
+}
+
+.log {
+  color:white;
+}
+.form-group {
+  margin: 15px auto;
+}
+.form-control {
+  background: transparent;
+  border: 1px solid white;
+  color: aliceblue;
+}
+.form-control placeholder {
+  color: aliceblue;
+}
+.text-muted {
+  color: aliceblue !important;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #38C7BD;
+  border-color: #38C7BD;
+}
+
+.btn-primary:hover {
+  color: #fff;
+  background-color:#0DB3D9;
+  border-color: #0DB3D9;
+}
+footer{
+  background: #012840;
+}
