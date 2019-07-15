@@ -9,12 +9,18 @@ body {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  
 }
 
-.header-text {
+.header-content {
   color: white;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
 }
-
+.header-content img{
+  width: 200px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
 .log {
   color:white;
 }
@@ -45,4 +51,17 @@ body {
 }
 footer{
   background: #012840;
+}
+.navbar {
+  background-color: #012840;
+}
+a {
+  color: azure;
+  text-decoration: none;
+  background-color: transparent;
+}
+
+a:hover {
+  color: aqua;
+  text-decoration: underline;
 }
