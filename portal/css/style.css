@@ -4,17 +4,25 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
  */
 body {
-  background: url('../images/bg_portal.jpg') no-repeat center center fixed;
+  background: url('../images/bg_2.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
-  
+  font-family: 'Poppins', sans-serif;
 }
 
-.header-content {
-  color: white;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.50);
+.header-content h1 {
+  color: #012840;
+  font-size: 40px;
+  line-height: 1.1;
+  font-weight: 700;
+}
+.header-content h3 {
+  color: #012840;
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 400;
 }
 .header-content img{
   width: 200px;
@@ -22,14 +30,11 @@ body {
   margin-top: 10px;
 }
 .log {
-  color:white;
-}
-.form-group {
-  margin: 15px auto;
+  color:#03658C;
 }
 .form-control {
   background: transparent;
-  border: 1px solid white;
+  border: 1px solid #03658C;
   color: aliceblue;
 }
 .form-control placeholder {
@@ -40,8 +45,8 @@ body {
 }
 .btn-primary {
   color: #fff;
-  background-color: #38C7BD;
-  border-color: #38C7BD;
+  background-color: #03658C;
+  border-color: #03658C;
 }
 
 .btn-primary:hover {
@@ -64,4 +69,7 @@ a {
 a:hover {
   color: aqua;
   text-decoration: underline;
+}
+.card {
+  opacity: 0.7;
 }
