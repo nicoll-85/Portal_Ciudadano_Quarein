@@ -10,6 +10,7 @@ body {
   background-size: cover;
   -o-background-size: cover;
   font-family: 'Poppins', sans-serif;
+  color: #012840;
 }
 
 .header-content h1 {
@@ -29,6 +30,7 @@ body {
   width: 200px;
   margin-bottom: 20px;
   margin-top: 10px;
+  margin: 0 auto;
 }
 .log {
   color:#03658C;
@@ -46,14 +48,17 @@ body {
 }
 .btn-primary {
   color: #fff;
-  background-color: #012840;
-  border-color: #012840;
+  background-color: #375D81;
+  border-color: #375D81;
+  padding: 1rem 4.75rem;
 }
-
+.btn-secondary {
+  padding: 1rem 4.75rem;
+}
 .btn-primary:hover {
   color: #fff;
-  background-color:#0DB3D9;
-  border-color: #0DB3D9;
+  background-color:#012840;
+  border-color: #012840;
 }
 footer{
   background: url('../images/SVG/bg_footer_3.svg') no-repeat center center;
@@ -81,7 +86,17 @@ a:hover {
   opacity: 0.7;
   margin-top: 50px;
 }
-
+.navbar-brand {
+  width: 150px;
+}
+.faq a {
+  color:#012840;
+  text-decoration: none;
+}
+.faq a:hover {
+  color:#03658C;
+  text-decoration: none;;
+}
 @media (min-width: 576px) {
   .card {
     margin-top: 25px ;

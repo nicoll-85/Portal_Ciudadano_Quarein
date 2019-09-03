@@ -8,7 +8,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>The Big Picture - Start Bootstrap Template</title>
+  <title>Portal del acceso a la información del ciudadano y abogado</title>
 
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -23,7 +23,8 @@
   <main>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
       <div class="container">
-        <a class="navbar-brand" href="#"><strong>Portal del Ciudadano</strong>
+        <a class="navbar-brand" href="#">
+          <img src="images/portal_lo_w.svg" alt="Logo_portal">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
           aria-expanded="false" aria-label="Toggle navigation">
@@ -37,13 +38,10 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Sugerencias</a>
+              <a class="nav-link" href="#">Manuales</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Oficinas</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto </a>
+              <a class="nav-link" href="faq.html">FAQ</a>
             </li>
           </ul>
         </div>
@@ -51,17 +49,25 @@
     </nav>
     <section>
       <div class="container">
-        <div class="header-content pt-5">
+        <div class="header-content pt-5 pr-5 pl-5">
           <div class="row justify-content-between flex-wrap flex-lg-nowrap mb-5 mt-5">
-            <div class="d-flex flex-column col-lg-6 col-12 mb-5 p-3">
-              <h1 class="">Portal del Ciudadano Hondureño</h1>
-              <h4>Poder Judicial</h4>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptates rerum eveniet sapiente repellat
-                esse, doloremque quod recusandae deleniti nostrum assumenda vel beatae sed aut modi nesciunt porro quisquam
-                voluptatem.
-              </p>
+            <div class="d-flex flex-column col-lg-12 col-12 mt-3">
+              <img src="images/portal_logo.svg" alt="Portal del ciudadano" style="width: 300px">
+              <div class="text-center col-10 m-auto">
+                <!-- <h1 class="p-4">Portal de Información del Ciudadano y el Abogado</h1> -->
+                <h3 class="mt-5">
+                  <strong>Poder Judicial</strong>
+                </h3>
+                <p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt voluptates rerum eveniet sapiente repellat
+                  esse, doloremque quod recusandae deleniti nostrum assumenda vel beatae sed aut modi nesciunt porro quisquam
+                  voluptatem.Vestibulum eu odio. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero,
+                  sit amet adipiscing sem neque sed ipsum. Phasellus tempus. Fusce vulputate eleifend sapien. Cum sociis
+                  natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+                </p>
+                <button type="button" data-toggle="modal" data-target="#myModal" class="btn btn-primary mt-5">ACCEDER</button>
+              </div>
             </div>
-            <div class="d-flex flex-column col-lg-6 col-12 ">
+            <!-- <div class="d-flex flex-column col-lg-6 col-12 ">
               <div class="card card-body log">
                 <div class="form-group mt-3">
                   <label for="exampleInputEmail1">Correo electrónico</label>
@@ -75,15 +81,45 @@
                   <button type="button" class="btn btn-block btn-primary btn-lg mt-3">Acceder</button>
                 </div>
               </div>
-            </div>
+            </div> -->
           </div>
         </div>
       </div>
     </section>
   </main>
-  <footer class="mt-5">
+  <div class="modal" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" style="display: none; padding-left: 0px;">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">
+            <strong>Acceso al Portal</strong>
+          </h4>
+          <button class="close" type="button" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">×</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <div class="form-group col-12">
+            <label for="email">Correo electrónico</label>
+            <input class="form-control" type="email" placeholder="Correo electrónico">
+          </div>
+          <div class="form-group col-12">
+              <label for="email">Contraseña</label>
+              <input class="form-control" type="password" placeholder="Contraseña">
+            </div>
+        </div>
+        <div class="modal-footer">
+          <button class="btn btn-secondary" type="button" data-dismiss="modal">Cerrar</button>
+          <button class="btn btn-primary" type="button">Ingresar</button>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <footer class="">
     <div class="container">
-        <img src="images/pj_blanco.svg" alt="logo pj" style="width: 100px">
+      <img src="images/pj_blanco.svg" alt="logo pj" style="width: 100px">
     </div>
     <!-- /.container -->
   </footer>
