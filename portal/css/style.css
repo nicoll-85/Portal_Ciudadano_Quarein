@@ -61,13 +61,11 @@ body {
   border-color: #012840;
 }
 footer{
-  background: url('../images/SVG/bg_footer_3.svg') no-repeat center center;
-  background-size: cover;
   height: 150px;
   color: #fff;
 }
 footer .container {
-  padding-top: 70px;
+  padding:20px;
 }
 .navbar {
   background-color: #012840;
