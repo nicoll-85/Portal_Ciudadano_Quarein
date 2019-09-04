@@ -46,19 +46,29 @@ body {
 .text-muted {
   color: aliceblue !important;
 }
-.btn-primary {
+.btn-primary-header {
   color: #fff;
   background-color: #375D81;
   border-color: #375D81;
   padding: 1rem 4.75rem;
 }
-.btn-secondary {
-  padding: 1rem 4.75rem;
+.btn-primary-header:hover {
+  color: #fff;
+  background-color:#012840;
+  border-color: #012840;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #375D81;
+  border-color: #375D81;
 }
 .btn-primary:hover {
   color: #fff;
   background-color:#012840;
   border-color: #012840;
+}
+.logo {
+  padding: 10px;
 }
 footer{
   height: 150px;
