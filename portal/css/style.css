@@ -1,27 +1,24 @@
-/*!
- * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
- */
+
 body {
-  background: url('../images/bg_2.jpg') center center fixed;
+  background: url('../images/justicia.jpg') center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
   font-family: 'Poppins', sans-serif;
-  color: #012840;
+  color: white;
+  height: v-100;
 }
 
 .header-content h1 {
-  color: #012840;
+  color: white;
   font-size: 40px;
   line-height: 1.1;
   font-weight: 700;
   margin-top: 50px;
 }
 .header-content h3 {
-  color: #012840;
+  color: white;
   font-size: 40px;
   line-height: 1.2;
   font-weight: 400;
@@ -71,14 +68,20 @@ body {
   padding: 10px;
 }
 footer{
-  height: 150px;
+  
   color: #fff;
+  background-color: #012840;
+  opacity: .8;
 }
 footer .container {
   padding:20px;
 }
 .navbar {
-  background-color: #012840;
+  background-color:#012840;
+  opacity: .7;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color:white;
 }
 a {
   color: azure;
@@ -91,11 +94,12 @@ a:hover {
   text-decoration: underline;
 }
 .card {
-  opacity: 0.7;
+  opacity: 0.8;
   margin-top: 50px;
+  color: #012840;
 }
 .navbar-brand {
-  width: 150px;
+  width: 200px;
 }
 .faq a {
   color:#012840;
@@ -104,6 +108,15 @@ a:hover {
 .faq a:hover {
   color:#03658C;
   text-decoration: none;;
+}
+small {
+  font-weight: 100;
+}
+.text-grey {
+  color: grey;
+}
+.modal {
+  color: #012840;
 }
 @media (min-width: 576px) {
   .card {
