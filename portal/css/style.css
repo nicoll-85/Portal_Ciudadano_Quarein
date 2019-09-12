@@ -33,6 +33,12 @@ body {
 .log {
   color:#03658C;
 }
+.active{
+  border-bottom: .25rem solid white;
+}
+.nav-item :hover{
+  border-bottom: .25rem solid white;
+}
 .form-control {
   background: transparent;
   border: 1px solid #03658C;
@@ -46,7 +52,7 @@ body {
 }
 .btn-primary-header {
   color: #fff;
-  background-color: #03658C;
+  background-color: #375D81;
   border-color: #375D81;
   padding: 1rem 4.75rem;
 }
@@ -70,15 +76,15 @@ body {
 }
 footer{
   color: #fff;
-  background-color: #012840;
-  opacity: .8;
+  background-color: #375D81;
+  opacity: .9;
 }
 footer .container {
   padding:20px;
 }
 .navbar {
-  background-color:#012840;
-  opacity: .7;
+  background-color:#375D81;
+  opacity: .9;
 }
 .navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
   color:white;
@@ -123,6 +129,9 @@ small {
 }
 .modal a:hover{
   color: #03658C;
+}
+.modal-footer a {
+  color: white;
 }
 .contrasena.card{
   background-color: rgb(226, 226, 226);
